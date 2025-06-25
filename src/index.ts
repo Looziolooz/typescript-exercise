@@ -28,4 +28,19 @@ console.log(score);
 
 
 
-let number: number[] = [10, 25, 5, 30, 15]
+let numbers: number[] = [10, 25, 5, 30, 15];
+
+for(let i = 0; i < numbers.length; i++) {
+  if (numbers [i] > 20) {
+    console.log("Talet är stort!")
+  }
+}
+
+let username: string = "looz";
+let password: string = "secret";
+
+if(username == "admin" && password == "secret" ) {
+  console.log("Login successful!");
+} else {
+  console.log("Invalid Credentials");
+}

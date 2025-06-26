@@ -321,5 +321,5 @@ console.log(accounts);
 
 // Skriv ut varje användare på ny rad i läsbart format
 for (const user of accounts) {
-    console.log(`Användare ID: ${user.id}, Namn: ${user.name}, Ålder: ${user.age}, Aktiv: ${user.isActive}`);
+    console.log(`user ID: ${user.id}, name: ${user.name}, age: ${user.age}, status: ${user.isActive}`);
 }
